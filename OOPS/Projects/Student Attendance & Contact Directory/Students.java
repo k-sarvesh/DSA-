@@ -29,7 +29,8 @@ public class Students {
         return this.id;
     }
     @Override
-    String toString(){
+    
+    public String toString(){
         return "Student ID : " + this.id + "\nStudent Name : " + this.Name + "\nStudent Email : " + this.Email;
     }
 
